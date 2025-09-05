@@ -2,10 +2,10 @@ import Hero from "./components/Hero";
 import ProjectCarousel from "./components/ProjectCarousel";
 import Footer from "./components/Footer";
 import Particles from "./blocks/Backgrounds/Particles/Particles";
-import FastStars from "./components/Projects/FastStars";
-import VozikShop from "./components/Projects/VozikShop";
-import Enhancify from "./components/Projects/Enhancify";
-import AlvCreatives from "./components/Projects/AlvCreatives";
+import FastStars from "./components/projects/FastStars";
+import VozikShop from "./components/projects/VozikShop";
+import Enhancify from "./components/projects/Enhancify";
+import AlvCreatives from "./components/projects/AlvCreatives";
 import LetsConnect from "./components/LetsConnect";
 
 function App() {
