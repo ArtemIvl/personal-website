@@ -8,11 +8,11 @@ export default function ProjectShowcase() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "./src/assets/cubes_fast_stars.jpeg",
-    "./src/assets/games_fast_stars.jpeg",
-    "./src/assets/menu_fast_stars.png",
-    "./src/assets/minigames_fast_stars.png",
-    "./src/assets/referrals_fast_stars.png",
+    "./assets/cubes_fast_stars.jpeg",
+    "./assets/games_fast_stars.jpeg",
+    "./assets/menu_fast_stars.png",
+    "./assets/minigames_fast_stars.png",
+    "./assets/referrals_fast_stars.png",
   ];
 
   const nextImage = () => setCurrentImage((currentImage + 1) % images.length);
@@ -26,7 +26,7 @@ export default function ProjectShowcase() {
         
         {/* Project name + icon */}
         <div className="md:col-span-2 flex items-center gap-5 text-2xl font-bold">
-          <img src="./src/assets/logo_fast_stars.jpeg"  alt="Project Icon" className="w-12 h-12 rounded-full" />
+          <img src="./assets/logo_fast_stars.jpeg"  alt="Project Icon" className="w-12 h-12 rounded-full" />
           Fast Stars — Telegram Bot
         </div>
 

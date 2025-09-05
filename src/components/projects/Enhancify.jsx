@@ -8,12 +8,12 @@ export default function ProjectShowcase() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "./src/assets/top_10k_enhancify.png",
-    "./src/assets/top_songs_enhancify.png",
-    "./src/assets/top_artists_enhancify.png",
-    "./src/assets/concerts_enhancify.png",
-    "./src/assets/concert_details_enhancify.png",
-    "./src/assets/profile_enhancify.png",
+    "./assets/top_10k_enhancify.png",
+    "./assets/top_songs_enhancify.png",
+    "./assets/top_artists_enhancify.png",
+    "./assets/concerts_enhancify.png",
+    "./assets/concert_details_enhancify.png",
+    "./assets/profile_enhancify.png",
   ];
 
   const nextImage = () => setCurrentImage((currentImage + 1) % images.length);
@@ -27,7 +27,7 @@ export default function ProjectShowcase() {
         
         {/* Project name + icon */}
         <div className="md:col-span-2 flex items-center gap-5 text-2xl font-bold">
-          <img src="./src/assets/spotify.png"  alt="Project Icon" className="w-12 h-12 rounded-full" />
+          <img src="./assets/spotify.png"  alt="Project Icon" className="w-12 h-12 rounded-full" />
           Enhancify - Music Statistics Platform
         </div>
 

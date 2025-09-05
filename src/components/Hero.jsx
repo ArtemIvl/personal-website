@@ -4,7 +4,7 @@ import SimpleScrollAnimation from "../blocks/Animations/AnimatedContent/Animated
 
 export default function Hero() {
   return (
-    <section className="min-h-[100vh] 2xl:min-h-auto md:pt-[15vh] pt-[10vh] w-full mx-0 px-[4vw] md:px-[10vw] block">
+    <section className="min-h-[100vh] 2xl:min-h-auto md:pt-[15vh] pt-[8vh] w-full mx-0 px-[4vw] md:px-[10vw] block">
       <div className="">
         <h2 className="text-4xl md:text-5xl font-bold">Artem Ivliev</h2>
         <p className="text-2xl md:text-5xl mt-5">FullStack Web Developer</p>
@@ -24,11 +24,11 @@ export default function Hero() {
             Get In Touch!
           </a>
           <a
-            href="./src/assets/Artem_Ivliev_CV.pdf"
-            download
+            href="./assets/Artem_Ivliev_CV.pdf"
+            target="blank"
             className="button transform transition-transform duration-300 hover:scale-105"
           >
-            Download CV
+            View CV
           </a>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function Hero() {
         <SimpleScrollAnimation distance={100} direction="y" duration={1}>
         <div className="p-6 border-4 border-[#617de0] rounded-lg shadow-lg flex flex-col gap-4 hover:shadow-xl transition-shadow rotate-4 bg-black">
           <div className="flex items-center gap-3">
-            <img src="./src/assets/telegram.png" alt="Telegram Bots" className="w-8 h-8" />
+            <img src="./assets/telegram.png" alt="Telegram Bots" className="w-8 h-8" />
             <h3 className="text-2xl font-semibold">Telegram Bots</h3>
           </div>
           <p className="text-base">
@@ -62,7 +62,7 @@ export default function Hero() {
         <SimpleScrollAnimation distance={100} direction="y" duration={1}>
         <div className="p-6 border-4 border-[#617de0] rounded-lg shadow-lg flex flex-col gap-4 hover:shadow-xl transition-shadow -rotate-4 bg-black">
           <div className="flex items-center gap-3">
-            <img src="./src/assets/briefcase.png" alt="Portfolio Websites" className="w-8 h-8" />
+            <img src="./assets/briefcase.png" alt="Portfolio Websites" className="w-8 h-8" />
             <h3 className="text-2xl font-semibold">Portfolio Websites</h3>
           </div>
           <p className="text-base">
@@ -87,7 +87,7 @@ export default function Hero() {
         <SimpleScrollAnimation distance={100} direction="y" duration={1}>
         <div className="p-6 border-4 border-[#617de0] rounded-lg shadow-lg flex flex-col gap-4 hover:shadow-xl transition-shadow rotate-4 bg-black">
           <div className="flex items-center gap-3">
-            <img src="./src/assets/internet.png" alt="Full Stack Web Apps" className="w-8 h-8" />
+            <img src="./assets/internet.png" alt="Full Stack Web Apps" className="w-8 h-8" />
             <h3 className="text-2xl font-semibold">Full Stack Web Apps</h3>
           </div>
           <p className="text-base">
@@ -121,7 +121,7 @@ export default function Hero() {
         {/* Telegram Bots */}
         <Card className="p-6 border-4 border-[#617de0] rounded-lg shadow-lg flex flex-col gap-4 hover:shadow-xl transition-shadow bg-[#0f172a]">
           <div className="flex items-center gap-3">
-            <img src="./src/assets/telegram.png" alt="Telegram Bots" className="w-8 h-8" />
+            <img src="./assets/telegram.png" alt="Telegram Bots" className="w-8 h-8" />
             <h3 className="md:text-2xl text-3xl font-semibold">Telegram Bots</h3>
           </div>
           <p className="md:text-base text-xl">
@@ -143,7 +143,7 @@ export default function Hero() {
         {/* Portfolio Websites */}
         <Card className="p-6 border-4 border-[#617de0] rounded-lg shadow-lg flex flex-col gap-4 hover:shadow-xl transition-shadow bg-[#0f172a]">
           <div className="flex items-center gap-3">
-            <img src="./src/assets/briefcase.png" alt="Portfolio Websites" className="w-8 h-8" />
+            <img src="./assets/briefcase.png" alt="Portfolio Websites" className="w-8 h-8" />
             <h3 className="md:text-2xl text-3xl font-semibold">Portfolio Websites</h3>
           </div>
           <p className="md:text-base text-xl">
@@ -166,7 +166,7 @@ export default function Hero() {
         {/* Full Stack Web Apps */}
         <Card className="p-6 border-4 border-[#617de0] rounded-lg shadow-lg flex flex-col gap-4 hover:shadow-xl transition-shadow bg-[#0f172a]">
           <div className="flex items-center gap-3">
-            <img src="./src/assets/internet.png" alt="Full Stack Web Apps" className="w-8 h-8" />
+            <img src="./assets/internet.png" alt="Full Stack Web Apps" className="w-8 h-8" />
             <h3 className="md:text-2xl text-3xl font-semibold">Full Stack Web Apps</h3>
           </div>
           <p className="md:text-base text-xl">

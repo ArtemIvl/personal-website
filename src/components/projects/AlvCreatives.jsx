@@ -8,10 +8,10 @@ export default function ProjectShowcase() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "./src/assets/full_logo_alv_creatives.jpeg",
-    "./src/assets/who_are_we_alv_creatives.png",
-    "./src/assets/case_studies_alv_creatives.png",
-    "./src/assets/roaring_20s_alv_creatives.png",
+    "./assets/full_logo_alv_creatives.jpeg",
+    "./assets/who_are_we_alv_creatives.png",
+    "./assets/case_studies_alv_creatives.png",
+    "./assets/roaring_20s_alv_creatives.png",
   ];
 
   const nextImage = () => setCurrentImage((currentImage + 1) % images.length);
@@ -25,7 +25,7 @@ export default function ProjectShowcase() {
         
         {/* Project name + icon */}
         <div className="md:col-span-2 flex items-center gap-5 text-2xl font-bold">
-          <img src="./src/assets/logo_alv_creatives.png"  alt="Project Icon" className="w-12 h-12 rounded-full" />
+          <img src="./assets/logo_alv_creatives.png"  alt="Project Icon" className="w-12 h-12 rounded-full" />
           ALV Creatives — Media Agency Website
         </div>
 

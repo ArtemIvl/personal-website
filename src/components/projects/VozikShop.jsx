@@ -8,10 +8,10 @@ export default function ProjectShowcase() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "./src/assets/bear_vozik_shop.jpeg",
-    "./src/assets/menu_vozik_shop.png",
-    "./src/assets/order_vozik_shop.png",
-    "./src/assets/profile_vozik_shop.png",
+    "./assets/bear_vozik_shop.jpeg",
+    "./assets/menu_vozik_shop.png",
+    "./assets/order_vozik_shop.png",
+    "./assets/profile_vozik_shop.png",
   ];
 
   const nextImage = () => setCurrentImage((currentImage + 1) % images.length);
@@ -25,7 +25,7 @@ export default function ProjectShowcase() {
         
         {/* Project name + icon */}
         <div className="md:col-span-2 flex items-center gap-5 text-2xl font-bold">
-          <img src="./src/assets/logo_vozik_shop.jpeg"  alt="Project Icon" className="w-12 h-12 rounded-full" />
+          <img src="./assets/logo_vozik_shop.jpeg"  alt="Project Icon" className="w-12 h-12 rounded-full" />
           Vozik Shop — Telegram Bot
         </div>
 
