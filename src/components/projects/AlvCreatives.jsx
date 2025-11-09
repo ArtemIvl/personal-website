@@ -8,8 +8,8 @@ export default function ProjectShowcase() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "./assets/logo_alv_creatives.png",
-    "./assets/case_studies_alv_creatives.png",
+    "./assets/home_alv_creatives.png",
+    "./assets/case_study_alv_creatives.png",
     "./assets/published_in_alv_creatives.png",
     "./assets/rolling_loud_alv_creatives.png",
   ];
