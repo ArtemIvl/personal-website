@@ -24,7 +24,7 @@ export default function Hero() {
             Get In Touch!
           </a>
           <a
-            href="./assets/Artem_Ivliev_CV.pdf"
+            href="./assets/Artem_Ivliev_Resume.pdf"
             target="blank"
             className="button transform transition-transform duration-300 hover:scale-105"
           >

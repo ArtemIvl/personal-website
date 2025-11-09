@@ -8,10 +8,10 @@ export default function ProjectShowcase() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "./assets/full_logo_alv_creatives.jpeg",
-    "./assets/who_are_we_alv_creatives.png",
+    "./assets/logo_alv_creatives.png",
     "./assets/case_studies_alv_creatives.png",
-    "./assets/roaring_20s_alv_creatives.png",
+    "./assets/published_in_alv_creatives.png",
+    "./assets/rolling_loud_alv_creatives.png",
   ];
 
   const nextImage = () => setCurrentImage((currentImage + 1) % images.length);
